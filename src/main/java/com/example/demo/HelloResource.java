@@ -14,4 +14,7 @@ public class HelloResource {
     public String hello1() {
         return "Hello, 我是张三!";
     }
+    public String hello2() {
+        return "Hello,张三您好 我是李四!";
+    }
 }

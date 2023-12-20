@@ -12,6 +12,9 @@ public class HelloResource {
         return "Hello, World!";
     }
     public String hello1() {
-        return "Hello, 我是张三！您好";
-    }//
+        return "Hello, 我是张三!";
+    }
+    public String hello2() {
+        return "Hello,张三您好 我是李四!";
+    }
 }
